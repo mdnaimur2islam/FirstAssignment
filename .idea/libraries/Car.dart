@@ -4,9 +4,11 @@ class Car{
   late String model;
   late int  year;
   late double milesDriven;
+  //create constructor to initialize member
   Car( {required this.brand, required this.model, required this.year,required this.milesDriven}){
     numberOfCar++;
   }
+  //method to additon of getmilesDriven and miles
   void drive(double miles){
     milesDriven =milesDriven+miles;
   }
